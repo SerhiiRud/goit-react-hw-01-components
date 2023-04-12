@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export const User = ({
+export const Profile = ({
   user: {
     username,
     tag,
@@ -36,7 +36,7 @@ export const User = ({
   );
 };
 
-User.propTypes = {
+Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   avatar: PropTypes.string.isRequired,

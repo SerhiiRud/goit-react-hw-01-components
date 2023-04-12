@@ -1,5 +1,5 @@
+import { Profile } from './Profile';
 import user from '../user.json';
-import { User } from './User';
 
 export const App = () => {
   return (
@@ -14,7 +14,7 @@ export const App = () => {
       }}
     >
       {/* React homework template */}
-      <User user={user} /> 
+      <Profile user={user} /> 
     </div>
   );
 };
