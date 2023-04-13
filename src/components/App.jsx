@@ -1,11 +1,14 @@
 import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
+import { FriendList } from './FriendList/FriendList';
 import user from '../user.json';
 import data from '../data.json';
+import friends from '../friends.json';
 
 export const App = () => {
   return (
     <>
+      {/* React homework template */}
     <div
       style={{
         height: '100vh',
@@ -16,7 +19,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      {/* React homework template */}
+      
       <Profile
   username={user.username}
   tag={user.tag}
@@ -25,6 +28,7 @@ export const App = () => {
   stats={user.stats}
         />
         <Statistics title="Upload stats" stats={data} />
+        <FriendList friends = {friends}/>
     </div>
       
       </>
