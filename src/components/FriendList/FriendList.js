@@ -10,7 +10,7 @@ export const FriendList = ({ friends }) => {
             {friend.isOnline}
           </span>
           <img
-            className="avatar1"
+            className="avatar"
             src={friend.avatar}
             alt="User avatar"
             width="48"
