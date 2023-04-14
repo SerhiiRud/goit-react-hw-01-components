@@ -1,0 +1,24 @@
+.statistics {
+    padding: 8px;
+    border: 2px dotted grey;
+}
+.title {
+    text-align: center;
+}
+.statList {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.item {
+    box-shadow: 8px 8px 6px 2px rgba(0, 0, 0, 0.3);
+    }
+
+.label {
+    margin-right: 8px;
+}
+.percentage {
+    background-color: #e2ce73;
+    border-radius: 4px;
+}

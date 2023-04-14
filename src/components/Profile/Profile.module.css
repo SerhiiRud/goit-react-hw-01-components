@@ -1,0 +1,31 @@
+.profile {
+    padding: 8px;
+    border: 2px dotted grey;
+}
+.description {
+    text-align: center;
+}
+.avatar {
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(235, 230, 230);
+}
+.name {
+    font-weight: 900;
+}
+.stats {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.item {
+    box-shadow: 8px 8px 6px 2px rgba(0, 0, 0, 0.3);
+}
+.label {
+    margin-right: 8px;
+}
+.quantity {
+    background-color: #e2ce73;
+    border-radius: 4px;
+}

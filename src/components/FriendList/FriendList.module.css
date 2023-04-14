@@ -1,0 +1,26 @@
+.friendList {
+    padding: 8px;
+    border: 2px dotted grey;
+        padding: 20px;
+            list-style: none;
+            display: flex;
+            gap: 40px;
+}
+
+.online {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: green;
+}
+.offline {
+    display: inline-block;
+        padding: 8px;
+        border-radius: 50%;
+    background-color: red;
+}
+.name {
+    background-color: #e2ce73;
+        border-radius: 4px;
+        box-shadow: 8px 8px 6px 2px rgba(0, 0, 0, 0.3);
+}
